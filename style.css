@@ -1,0 +1,18 @@
+.recommendation {
+    padding: 3rem 0 !important;
+  }
+  
+  .recommendation .brand-color {
+    color: #e63946 !important; /* Adjust this to your brand's primary color */
+  }
+  
+  .carousel-inner {
+    max-height: 500px !important; /* Adjust the height as needed */
+    overflow: hidden !important;
+  }
+  
+  .carousel-item img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }

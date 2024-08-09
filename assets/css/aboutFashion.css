@@ -1,0 +1,38 @@
+.About-Us{
+    background-image: url(./assets/img/istockphoto-1195041781-1024x1024.jpg);
+    min-height: 100vh;
+background-size: 100% 100%;
+background-position: 50% 30% ;
+background-repeat: no-repeat;
+}
+
+.about-us-content-wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.about-us-firt-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-us-content{
+    width: 80%;
+}
+
+.about-us-img-container{
+    width: 70%;
+    min-width: 300px;
+}
+.about-us-img-container img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .about-us-firt-content{
+        flex-direction: column;
+    }
+    
+}

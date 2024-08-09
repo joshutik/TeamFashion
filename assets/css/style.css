@@ -1,0 +1,193 @@
+/* utilities */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+
+.brand-color{
+    color: #ff8355;
+}
+
+/* NAVBAR */
+.brand-name{
+    color: #ff8355 !important;
+    font-size: 30px;
+}
+
+.nav-top-pin{
+    position: sticky;
+    top:0;
+    left:0;
+    background-color: #ff8355 !important;
+    z-index: 5 !important;
+}
+.nav-top-pin:hover{
+    color: #f7c0ac !important;
+    
+}
+.main-nav-links li a{
+     color: #fff !important;
+     font-size: 20px;;
+}
+
+.btn-outline-warning{
+    color: #ff8355 !important;
+    border-color: #ff8355 !important;
+}
+
+.carousel-inner{
+   height: 90vh !important;
+   object-fit: cover !important;
+   object-position: center;
+}
+
+
+.carousel-item{
+    height: 100px !important;
+    object-fit: cover !important;
+}
+
+.border-divider{
+    border: 1px solid #ff8355;
+    width: 400px;
+    margin: 100px auto 40px auto;
+}
+
+.about-us-content  h2{
+    font-size: 50px;
+    font-weight: boold;
+    color:#ff8355;
+}
+
+.service-heading{
+    text-align:left !important;
+    margin: 40px 0;
+    color:#ff8355;
+    font-size: 50px;
+    padding: 20px 0;
+
+}
+
+.servcol{
+    border:1px solid #dcdcdc;
+}
+
+
+.footer-content-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.fashion-brand-footer h2{
+    color:#ff8355;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+.fashion-brand-footer p:last-child{
+    width: 600px;
+}
+.fashion-brand-links li:first-child a{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#ff8355;
+}
+
+.recommendation{
+    margin: 20px 0;
+}
+
+.recommendation h2{
+    color: #ff8355;
+    font-size: 40px;
+}
+
+/* contact section style */
+.form-bg{
+    /* background-image: linear-gradient(to right, #ff8355, #fff) */
+    background-image: linear-gradient(45deg, #ff825523, #ffff);
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.contact-section{
+    width: 960px;
+    margin: 0 auto;
+
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.form-wrap{
+    /* background-color: #ff8355; */
+    width: 400px;
+    height: 400px;;
+}
+
+.form-heading{
+    font-size:50px;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input[type="text"],
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px ;
+    color:#141313;
+    font-size: 20;
+}
+form label{
+    color:#3a3432;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;;
+    
+}
+
+.form-img-container{
+    width: 250px;
+}
+
+footer{
+    padding: 40px 0;
+}
+.fashion-brand-footer p:last-child{
+    padding: 0 50px 0 0;
+    width: 500px;
+}
+.fashion-brand-links li{
+    margin-bottom: 10px;;
+    font-size: 20px;
+}
+.fashion-brand-links li a:hover{
+    color:#ff8355
+}
+
+.last-footer{
+    text-align: center;
+    color:#4f4f4f;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .footer-content-wrap{
+       flex-direction: column;
+    }
+    .footer-content-wrap{
+        flex-direction: column;
+    }
+}
